@@ -10,7 +10,7 @@ class BookAdmin(admin.ModelAdmin):
         'id',
         'name',
         'rasm',
-
+        'kg'
     )
 
 @admin.register(LibUser)
