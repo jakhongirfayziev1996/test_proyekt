@@ -1,8 +1,5 @@
-from django.shortcuts import render
-from django.shortcuts import render
+# from django.shortcuts import render
 
-def home(request):
-    return render(request,'home.html')
 
 from rest_framework import viewsets
 from rest_framework.response import Response

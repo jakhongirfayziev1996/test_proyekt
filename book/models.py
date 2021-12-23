@@ -4,7 +4,7 @@ from django.db import models
 class Book(models.Model):
     name = models.CharField(max_length=100)
     rasm = models.ImageField(upload_to="rasmlar", null=True, blank=True)
-
+    kg = models.IntegerField()
 
 class LibUser(models.Model):
     jerjero = models.CharField(max_length=100)
