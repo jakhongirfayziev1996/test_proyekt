@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from . import models
+# from . import models
 from .models import Book, LibUser, RentBook
 
 
